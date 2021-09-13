@@ -138,7 +138,7 @@ def DOWNLOADMP3(link,chat_id):
     bot.sendAudio(-1001234144318, open(f'song//{trackname}.mp3', 'rb'), title=trackname, caption=CAPTION)
   
     print('[Telegram]Song sent!')
-     bot.sendAudio(chat_id, open(f'song//{trackname}.mp3', 'rb'), title=trackname, caption=CAPTION)
+     bott.sendAudio(chat_id, open(f'song//{trackname}.mp3', 'rb'), title=trackname, caption=CAPTION)
   
     print('[Telegram]Song sent!')
     
